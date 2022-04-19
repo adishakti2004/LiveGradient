@@ -1,0 +1,43 @@
+.centre {
+    margin: 20%;
+    align-items: center;
+}
+
+p {
+    background-color: white;
+    padding: 5px;
+    border: 2px dashed black;
+    border-radius: 5px;
+}
+.copycode{
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 8px 20px;
+}
+
+.ec{
+    display: flex;
+    align-items: center;
+    vertical-align: center;
+}
+
+input[type=text]{height: 20px;}
+
+input[type=color]{
+    appearance: none;
+    background-color: transparent;
+    border: none;
+    height: 35px;
+    width: 60px;
+    cursor: pointer;
+}
+input[type=color]::-webkit-color-swatch{
+    border-radius: 15px;
+    border: none;
+}

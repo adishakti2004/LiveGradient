@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Gradient Generator</title>
+    <script src="magic.js"></script>
+    <link rel="stylesheet" href="magical.css">
+</head>
+<body style="text-align: center">
+    <div class="centre">
+        <h1>Select Colors:</h1>
+        <div class="ec">
+            <input type="color" value="#e1f1c1" id="left" oninput="myfunction()">
+        <input type="color" value="#f1c1e1" id="right" oninput="myfunction()">
+        <input type="text" id="angle" oninput="myfunction()" placeholder="Direction or Angle">
+        </div>     
+        <!-- <button type="submit" onclick="myfucktion()">Submit</button> -->
+        <p><span style="color: red;"><b>CSS Color Code: </b></span>
+            <span id="myText">background-image: + <span style="color: gray;">string</span> + ;</span>
+
+            <!-- The button used to copy the text -->
+            <button class="copycode" id="clipboard">Copy Code</button></p>
+    </div>
+    
+</body>
+</html>
